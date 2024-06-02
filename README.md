@@ -34,5 +34,29 @@ function getTotalSupply() {
 }
 
 // call your functions below this line
+<br>
+
+# NFT Collection Script
+
+## Overview
+This script manages a collection of NFTs (Non-Fungible Tokens) representing employees. Each NFT includes metadata such as employee ID, name, salary, experience, designation, and department.
+
+## Functions
+
+### `mintNFT(id, employeeName, salary, experience, designation, department)`
+- **Purpose:** Creates and stores a new NFT with the provided metadata.
+- **Parameters:**
+  - `id` (number): Unique identifier for the NFT.
+  - `employeeName` (string): Name of the employee.
+  - `salary` (string): Salary of the employee.
+  - `experience` (string): Work experience of the employee.
+  - `designation` (string): Job title of the employee.
+  - `department` (string): Department of the employee.
+
+### `listNFTs()`
+- **Purpose:** Lists all NFTs in the collection, displaying their metadata.
+
+### `getTotalSupply()`
+- **Purpose:** Returns the total number of NFTs in the collection.
 
 
